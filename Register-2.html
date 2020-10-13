@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+
+	<style type="text/css">
+		
+		* {
+			margin: 0;
+			padding: 0;
+		  }
+
+		body{
+			background-image: url(images/background-img-register.png);
+			background-position: center;
+			background-size: cover;
+			font-family: sans-serif;
+			margin-top: 10px;	
+			}
+
+		.register-form{
+						width: 1500px;
+						background-color: rgb(0,0,0,0.6);
+						margin: auto;
+						color: #FFFFFF;
+						padding: 10px 0px 10px 0px;
+						text-align: center;
+						border-radius: 15px 15px 0px 0px;
+					 }
+
+		.main{
+				background-color: rgb(0,0,0,0.5);
+				width: 1500px;
+				margin: auto;	
+			}
+
+		form{
+				padding: 10px;
+			}
+
+		.name {
+				width: 100%;
+				height: auto;
+
+		      }	
+
+		.name{
+				margin-left: 25px;
+				margin-top: 30px;
+				width: 125px;
+				color: white;
+				font-size: 18px;
+				font-weight: 400;
+			 }      
+
+		.firstname{
+					position: relative;
+					left: 200px;
+					top: -26px;
+					line-height: 30px;
+					border-radius: 6px;
+					padding: 0 22px;
+					font-size: 16px;
+				  }
+		
+		.lastname{
+					position: relative;
+					left: 400px;
+					top: -60px;
+					line-height: 30px;
+					border-radius: 6px;
+					padding: 0 22px;
+					font-size: 16px;
+					color: #555;
+				 }				 
+
+		.firstlabel{
+						position: relative;
+						color: #E5E5E5;
+						text-transform: capitalize;
+						font-size: 14px;
+						left: 210px;
+						top: -30px;
+				   }		 
+
+	 	.lastlabel{
+						position: relative;
+						color: #E5E5E5;
+						text-transform: capitalize;
+						font-size: 14px;
+						right: -160px;
+						top: -31px;
+				   }		 
+
+		.email{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 40px;
+				width: 250px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: #555;
+			 }
+
+		.mobilenumber{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 40px;
+				width: 150px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: #555;
+			 }	 
+
+		.dob{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 40px;
+				width: 100px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: #555;
+			}	 	 
+
+		.Gender{
+				display: inline-block;
+				padding-right: 70px;
+				font-size: 25px;
+				margin-left: 5px;
+				margin-top: 10px;
+				cursor: pointer;
+				outline: none;
+				color: white;
+		}
+
+		.Address{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 70px;
+				width: 250px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: #555;
+			 }
+
+		.pincode{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 40px;
+				width: 150px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: 	#000000;
+			 }	 	 
+
+
+		.city{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 40px;
+				width: 150px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: 	#000000;
+			 }	 
+
+		
+		.state{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 40px;
+				width: 150px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: 	#000000;
+			 }	 	 
+	 
+
+
+		.option{
+				position: relative;
+				left: 180px;
+				top: -40px;
+				line-height: 50px;
+				width: 150px;
+				border-radius: 6px;
+				padding: 5 50px;
+		}	
+
+		.youropinion{
+				position: relative;
+				left: 180px;
+				top: -28px;
+				line-height: 70px;
+				width: 300px;
+				border-radius: 6px;
+				padding: 0 22px;
+				font-size: 16px;
+				color: #555;
+			 }
+
+
+		.button{
+				background-color: #3BAF9F;
+				display: block;
+				margin: 20px 0px 0px 20px;
+				text-align: center;
+				border-radius: 12px;
+				border:2px solid #366473;
+				padding: 14px 110px;
+				outline: none;
+				color: white;
+				cursor: pointer;
+				transition: 0.25px;
+			}
+
+		.button:hover{
+						background-color: #5390F5
+		}	
+
+
+
+
+
+
+
+	</style>
+
+
+
+
+</head>
+<body>
+		<div class="register-form">
+			<h1>Registration Form</h1>
+		</div>
+
+		<div class="main">
+			<form>
+				<div id="name">
+
+					<h2 class="name">Name</h2>
+					<input class="firstname" type="rext" name="first_name"><br>
+					<label class="firstlabel">First Name</label>
+					<input class="lastname" type="text" name="last_name">
+					<label class="lastlabel">Last Name</label>
+
+					<h2 class="name">Email</h2>
+					<input class="email" type="text" name="email">
+
+					
+					<h2 class="name">Mobile Number</h2>
+					<input class="mobilenumber" type="text" name="mobilenumber">
+
+					<h2 class="name">D.O.B</h2>
+					<input class="dob" type="text" name="dob">
+				   
+					
+					<h2 class="name">Gender</h2><br>
+
+					Male:&nbsp;<input class="Gender" type="radio" name="status">&nbsp;
+					Female:&nbsp;<input class="Gender" type="radio" name="status">&nbsp;
+					Others:&nbsp;<input class="Gender" type="radio" name="status">&nbsp;
+
+					
+				     <h2 class="name">Category</h2><br>
+					<select class="option" name="category">
+				    	<option disabled="disabled" selected="selected">Choose Category</option>
+				    	<option>Conservationist</option>
+				    	<option>Volunteer</option>
+				    	<option>Institute</option>
+				    </select>
+
+				    <h2 class="name">Address</h2>
+					<input class="Address" type="text" name="Address">&nbsp;&nbsp;&nbsp;&nbsp;
+
+					<input class="pincode" type="text" name="pincode">
+					<label class="pincode">Pin-code</label>
+
+
+					<input class="city" type="text" name="city">
+					<label class="city">City</label>
+
+					<input class="state" type="text" name="state">
+					<label class="state">State</label>
+
+				    <h2 class="name">Your Opinion</h2>
+					<input class="youropinion" type="text" name="youropinion"><br><br>
+					
+		
+				   	<a href="activity-2.html">
+						<button class="button" type="button">Register</button>
+					</a>	
+
+				
+					
+
+
+
+				</div>
+
+			</form>
+			
+		</div>	
+</body>
+</html>
